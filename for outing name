@@ -1,0 +1,4 @@
+ function cal(){
+            const inputElement=document.querySelector('.js-input');
+            document.querySelector('.result').innerHTML=`Your Name Is: ${inputElement.value}`;
+        }
