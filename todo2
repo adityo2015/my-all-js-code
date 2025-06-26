@@ -1,1 +1,27 @@
+const todo=['Make Dinner','Make Lunch','Go to Bed'];
 
+rendertodo();
+
+
+function rendertodo(){
+
+    let todoHTML='';
+
+
+    for(let i=0;i<todo.length;i++){
+        const list=todo[i];
+        const html=`<p>${list}</p>`;
+        todoHTML+=html; 
+    }
+    console.log(todoHTML);
+    document.querySelector('.js-div').innerHTML=todoHTML;
+}
+
+function addtodo(){
+   const inputElement= document.querySelector('.js-input');
+   const name=inputElement.value;
+   todo.push(name);
+   console.log(todo);
+   inputElement.value='';
+   rendertodo();
+}
