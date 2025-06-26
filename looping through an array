@@ -3,7 +3,7 @@ const todo2=['make Dinner',
     'Watch movie',
     'Sex',
 ]
-for(let i=0;i<=todo2.length-1;i++){
+for(let i=0;i<todo2.length;i++){
     const value=todo2[i];
     console.log(value);
 }
