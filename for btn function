@@ -1,0 +1,6 @@
+function cal(){
+    const btnElmnt= document.querySelector('.js-btn');
+    if(btnElmnt.innerHTML==='Click'){
+     btnElmnt.innerHTML='Clicked';
+    }else{ btnElmnt.innerHTML='Click';}
+}
