@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aray2</title>
+    <link rel="stylesheet" href="aree2.css">
+</head>
+<body>
+    <p>Practice Set 2</p>
+    <div class="main2">
+        <input type="text" placeholder="ToDo Name" class="js-input input1">
+        <input type="date"  class="js-date input2">
+        <button onclick="addtodo();" class="btn">Add</button><br>
+    </div>
+    <div class="js-div main"></div>
+
+    <script src="aree2.js"></script>
+    
+</body>
+</html>
