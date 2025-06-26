@@ -1,0 +1,7 @@
+const todo=[];
+function addtodo(){
+   const inputElement= document.querySelector('.js-input1');
+   const name= inputElement.value;
+   todo.push(name);
+   console.log(todo);
+}
