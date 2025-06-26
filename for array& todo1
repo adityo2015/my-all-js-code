@@ -4,4 +4,5 @@ function addtodo(){
    const name= inputElement.value;
    todo.push(name);
    console.log(todo);
+   inputElement.value='';
 }
